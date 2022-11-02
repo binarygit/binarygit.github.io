@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poor Story', cursive;
+  font-size: 1.5rem;
+  padding: 10px;
+  background: #ccd5dd;
+
+  display: flex;
+  gap: 40px;
+}
+
+.social-links {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links img {
+  height: 40px;
+}
+
+.social-links img:hover {
+  border-bottom: 5px solid yellow;
+}
+
+.details li {
+  list-style-image: url('./images/bulls-eye.svg');
+  padding: 10px;
+}
+
+.details section {
+  margin-bottom: 30px;
+}
+
+.details h2 {
+  margin-bottom: 5px;
+}
+
+.word-space {
+  word-spacing: 5px;
+}
